@@ -31,7 +31,7 @@ h3 {
     padding: 0.2rem 1rem;
     background: rgba(
       lighten($color: $primary-color, $amount: 0.2),
-      $background-opacity + 0.1
+      $background-opacity - 0.1
     );
   }
 }
