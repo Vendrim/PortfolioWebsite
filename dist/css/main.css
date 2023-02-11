@@ -191,12 +191,17 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
   .projects img {
-    width: 100%;
+    width: 25rem;
+    height: 25rem;
+    object-position: 100% 25%;
+    object-fit: cover;
     border: 3px solid #fff; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #eece1a;
       transition: all 0.5s ease-out; }
+  .projects .item span {
+    font-weight: bold; }
 
 .boxes {
   display: flex;

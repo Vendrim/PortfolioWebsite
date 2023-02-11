@@ -128,13 +128,21 @@ main {
   grid-gap: 0.7rem;
 
   img {
-    width: 100%;
+    width: 25rem;
+    height: 25rem;
+    object-position: 100% 25%;
+    object-fit: cover;
     border: 3px solid #fff;
 
     &:hover {
       opacity: 0.5;
       border-color: $secondary-color;
       @include easeOut;
+    }
+  }
+  .item {
+    span {
+      font-weight: bold;
     }
   }
 }
