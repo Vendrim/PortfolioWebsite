@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "This is my project portfolio website -- probably just a course for now",
   "main": "index.js",
+  "homepage": "https://vendrim.github.io/PorfolioWebsite",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,8 +17,8 @@
   "bugs": {
     "url": "https://github.com/Vendrim/PortfolioWebsite/issues"
   },
-  "homepage": "https://github.com/Vendrim/PortfolioWebsite#readme",
   "dependencies": {
+    "gh-pages": "^5.0.0",
     "node-sass": "^8.0.0"
   }
 }
